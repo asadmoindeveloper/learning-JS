@@ -84,4 +84,4 @@ there are two more methods that are trimstart and trimend
 
 // there are many different functions for the string data type you can explore on mdn (.lowercase, .uppercase, .indexof, .length)
 
-
+// these are some of the lectures I am learning through someone of javascript
