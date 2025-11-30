@@ -85,3 +85,12 @@ there are two more methods that are trimstart and trimend
 // there are many different functions for the string data type you can explore on mdn (.lowercase, .uppercase, .indexof, .length)
 
 // these are some of the lectures I am learning through someone of javascript
+
+
+const id = 19430
+let name = "      asad moin             "
+let age = 22
+let course = 32
+
+
+console.log(`the student id is ${id} and the name of the student is ${name.trim()} and his age is ${age} his pending courses are ${course}`)
