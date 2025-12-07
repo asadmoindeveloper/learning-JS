@@ -87,6 +87,7 @@ there are two more methods that are trimstart and trimend
 // these are some of the lectures I am learning through someone of javascript
 
 
+/* 
 const id = 19430
 let name = "      asad moin             "
 let age = 22
@@ -94,3 +95,46 @@ let course = 32
 
 
 console.log(`the student id is ${id} and the name of the student is ${name.trim()} and his age is ${age} his pending courses are ${course}`)
+*/
+
+//arrays in JS
+
+//const my1arr = ['Aisha', 'asad', 3, 4, true, 6]     ( normal array initialization)
+
+//console.log(my1arr[0]);             (prints the number in array at position 0)
+
+
+//const asad = new Array(1,2,3,4,5,6,'asad')  object of array
+//console.log(asad[6]);
+
+
+//Array methods 
+
+//asad.push(10)                            (add the number 10 in the array)
+//console.log(asad);
+
+//asad.pop()                                (delete the last number of array)
+//console.log(asad)
+
+
+//console.log(asad.includes(2));                   (determine that 2nd position in the array is available or not)
+//console.log(asad.indexOf(2));                    (determines that what is the number is at that positon)
+
+/*
+const newarray = asad.join()                          ( convert the whole array into string)
+console.log(typeof newarray);                         ( give the type of the array)
+*/
+
+
+// slice or splice
+
+//console.log('a', asad.slice(1,3));                  ( only gives the number in the defined position of array and didn't make any change in it)
+
+//console.log('b', asad);
+
+//console.log('c', asad.splice(0,3));                  
+
+// (when use splice so after printing it removes the part that we called in splice and make change in the array)
+
+//console.log(asad);
+
