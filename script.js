@@ -138,3 +138,61 @@ console.log(typeof newarray);                         ( give the type of the arr
 
 //console.log(asad);
 
+
+//const student = ["asad", "ali" , "kevin", "eric"]
+
+//const Grade = ["Aone", "A grade" , "B grade", "C grade"] 
+
+//const combine = student.concat(Grade) it combines two array 
+
+//const combine = [...student, ...Grade] //same as concat() it also combine two array
+//console.log(combine)
+
+// const myarr = [1,2,3,4,[1,2,3,4,5],6,7,[8,9,0]]
+
+// const mynewarr = myarr.flat(Infinity)
+
+// console.log(mynewarr)
+
+// console.log(Array.isArray("Asad"));
+
+// let score1 = 100
+// let score2 = 200
+// let score3 = 300
+
+// console.log(Array.of(score1,score2,score3));
+
+// OBJECTS
+
+// const mysym = Symbol("h1")
+
+const myobj = {
+    Name: "asad",
+    date: "12/10/2025",
+    //[mysym]: "h1", // is used to call system into object
+    gender: "male",
+    Isloggedin: false,
+    age: 18
+}
+
+// console.log(myobj[mysym]); //is used to print symbol
+// console.log(myobj["date"])
+// myobj.Name = "Bilal"
+// console.log(myobj.Name);
+// Object.freeze(myobj) // is used to freeze the object now we can't change anything in object
+
+
+// Function
+
+myobj.greeting = function(){
+
+    console.log("hello this is function 1");
+}
+
+myobj.greeting2 = function(){
+    console.log(`this is our function two, ${this.Name} ${this.date}`)
+}
+
+console.log(myobj.greeting());
+console.log(myobj.greeting2());
+
