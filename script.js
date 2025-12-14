@@ -184,15 +184,44 @@ const myobj = {
 
 // Function
 
-myobj.greeting = function(){
+// myobj.greeting = function(){
 
-    console.log("hello this is function 1");
-}
+//     console.log("hello this is function 1");
+// }
 
-myobj.greeting2 = function(){
-    console.log(`this is our function two, ${this.Name} ${this.date}`)
-}
+// myobj.greeting2 = function(){
+//     console.log(`this is our function two, ${this.Name} ${this.date}`)
+// }
 
-console.log(myobj.greeting());
-console.log(myobj.greeting2());
+// console.log(myobj.greeting());
+// console.log(myobj.greeting2());
 
+// const obj1 = new Object() // this is a singleton object
+
+//This is the literal object
+// const myobj2 = {
+
+//         email: "asad@gmail.com",
+//         fullname: {
+//             firstname: "asad",
+//             lastname: {
+//                 lastnamee: "moin"
+//             }
+//         }
+// }
+
+// console.log(myobj2.fullname.lastname.lastnamee)
+
+
+ obj1 = {1:"a" , 2:"b" , 3:"c"}
+ obj2 = {4:"d", 5:"e"}
+
+// const obj3 = Object.assign({} , obj1,obj2)   method to combine two objects
+// console.log(obj3)
+
+// const obj3 = {...obj1, ...obj2}
+// console.log(obj3)
+
+
+// console.log(Object.keys(myobj))
+// console.log(Object.values(myobj))
