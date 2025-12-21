@@ -18,7 +18,7 @@ console.log(Name);
 
 /*
 
-Data types of Java script
+---------------------------------------------------------------Data types of Java script------------------------------------------------------
 
 number
 bigint
@@ -162,7 +162,7 @@ console.log(typeof newarray);                         ( give the type of the arr
 
 // console.log(Array.of(score1,score2,score3));
 
-// OBJECTS
+// -------------------------------------------------------------------OBJECTS----------------------------------------------------------------
 
 // const mysym = Symbol("h1")
 
@@ -225,3 +225,66 @@ const myobj = {
 
 // console.log(Object.keys(myobj))
 // console.log(Object.values(myobj))
+
+// const fiftsemcourses = {
+//     Coursename: "fundamental programming",
+//     Courseprice: "$500/=",
+//     Courseinstructor: "Radhay Mohan" 
+// }
+
+
+// const {Coursename : name} = fiftsemcourses
+
+// console.log(name)
+
+
+//--------------------------------------------------------------FUNCTIONS----------------------------------------------------------------------
+
+//-------------------------------------------------------------
+// function Myname(){
+
+//     console.log("A");
+//     console.log("S");
+//     console.log("A");
+//     console.log("D");
+
+// }
+
+// Myname()
+
+//--------------------------------------------------------------
+// function addnumber(number1, number2){
+//     let result = number1 + number2
+//     return result
+// }
+
+// const result = addnumber(3,4)
+// console.log("Results:", result);
+
+//---------------------------------------------------------------
+// function loggedinmessage(username){
+//     return `${username} Welcome to our store`
+// }
+
+// console.log(loggedinmessage("Hello Asad"));
+//---------------------------------------------------------------
+
+// function loggin(username = "asad"){
+
+//     return `${username} Welcome to our store`
+// }
+
+// console.log(loggin("Hadi"))
+
+//----------------------------------------------------------------
+
+// function loggin(username){
+
+//     if (!username) {
+        
+//         console.log("please enter name")
+//     }
+//     return `${username} Welcome to our store`
+// }
+
+// console.log(loggin())
