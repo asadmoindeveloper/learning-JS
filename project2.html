@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit">
+
+        <label for="text">Enter your obtained Marks</label>
+        <input type="text" name="" id="obtain"><br><br>
+        <label for="text">Enter your Total Marks</label>
+        <input type="text" name="" id="total"><br><br>
+        <button>calculate</button><br><br>
+        <label id="result"></label><br><br>
+        <label for="" id="status"></label>
+    </form>
+</body>
+<script>
+    const form = document.querySelector('form')
+
+    form.addEventListener("submit", (e)=>{
+        e.preventDefault()
+
+    const obtain = parseInt(document.getElementById("obtain").value)
+    const total = parseInt(document.getElementById("total").value)
+    const result = document.getElementById("result")
+    const status = document.getElementById("status")
+
+        if(obtain === '' || obtain < 0 || isNaN(obtain)){
+            result.innerHTML = "please enter a valid obtain marks"
+        }
+        else if(total === '' || total < 0 || isNaN(total)){
+            result.innerHTML = "please enter a valid total marks"
+        }
+        else{
+            const percentage = ((obtain/total)*100).toFixed(2)
+            result.innerHTML = `the percentage is ${percentage}`
+            
+            if(percentage < 50){
+                status.innerHTML = "you are fail"
+            }
+            else{
+                status.innerHTML = "you are passed"
+            }
+        }
+    })
+</script>
+</html>
